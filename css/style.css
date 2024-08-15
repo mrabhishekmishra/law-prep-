@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none !important; 
+
+}
+a{
+    text-decoration: none !important;
+}
+.bgcolor{
+    background-color: #101828;
+}
+.border1{
+    height: 200px;
+    border: 1px solid red;
+}
+.header{
+    background-color: #101828;
+    font-size: 15px;
+}
+.logo{
+    width: 25%; 
+}
+.contect{
+    width: 100px;
+   
+}
+.mega_menu{
+    width: 200px;
+     display: none !important;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px !important;
+    position: absolute;
+    top: 120%;
+    left:8;
+ 
+}
+
+.menu:hover .mega_menu {
+    color: #000 !important;
+    display: block !important;
+}
+.menu:focus .mega_menu{
+    display: block !important;
+}
+
+
+
+.mega_menu>li{
+    width: 100%;
+    padding: 5px !important;
+    font-size: 16px !important;
+     border-radius: 5px;
+}
+
+.mega_menu :hover{
+    background-color:RGB(132 188 200) !important;
+}
+.inner_menu{
+    width: 200px;
+    display: none !important;
+    border: 1px solid red ;
+    border-radius: 5px;
+    padding:10px 20px  !important;
+    position: absolute !important;
+    top: 0%;
+    left: 100%;
+}
+.mega_menu>li:hover .inner_menu {
+    
+    display: block !important;
+}
+
+/* slider css */
+.owl-item {width: 128.906px; margin-right: 10px; background:powderblue; }
+
+/* banner1 */
+.section1{
+    background-color: rgb(255,232,220);
+}
+.section1_right{
+    background-color: #101828;
+}
+.section1_right p {
+    color: rgba(132, 174, 232, 0.831);
+}
+/* annimation button css */
+
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+  button {
+    margin: 20px;
+  }
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  
+  
+  
+  /* 11 */
+  .btn-11 {
+    border: none;
+    background: rgb(248, 30, 6);
+      background: linear-gradient(0deg, rgb(239, 6, 6) 0%, rgb(243, 3, 3) 100%);
+      color: #fff;
+      overflow: hidden;
+  }
+  .btn-11:hover {
+      text-decoration: none;
+      color: #fff;
+  }
+  .btn-11:before {
+      position: absolute;
+      content: '';
+      display: inline-block;
+      top: -180px;
+      left: 0;
+      width: 30px;
+      height: 100%;
+      background-color: #fff;
+      animation: shiny-btn1 3s ease-in-out infinite;
+  }
+  .btn-11:hover{
+    opacity: .7;
+  }
+  .btn-11:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+  }
+  
+  
+  @-webkit-keyframes shiny-btn1 {
+      0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+      80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+      81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+      100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+  }
+  
+  /* section 2 */
+  .sec2_cart{
+    height: 500;
+    transition: 1s;
+  }
+
+  .sec2_cart:hover{
+    border-bottom: 5px solid red;
+    transform: translate(0,-20px);
+  }
+  /* section 3 */
+
+  .sec3_cart{
+    height:400px;
+    background-color: pink; 
+  }
+  .sec3_cart:hover{
+    background-color: rgba(255, 0, 0, 0.089);
+    transition: 1s;
+  }
+  .sec3_cart>h3{
+        font-family: "Rubik Lines", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .sec3_cart:hover .sec3_cart h5 p{
+        color: white;
+      }
+      .sec_5{
+        background-color:#fffbe8;
+      }
+  
+/* footer */
+.footer{
+    background-color: #101828;
+}
+
+.footer_li>li{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.footer_li>li>a:hover {
+border-bottom: 1px solid white;
+}
+.footer_bottam{
+    border-top: 2px solid lightskyblue;
+    background-color: #101828;
+}
+.socila_media{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.socila_media>li>i{
+    font-size: 25px;
+    cursor: pointer;
+}
